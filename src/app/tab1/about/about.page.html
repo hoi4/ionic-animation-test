@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
+      <ion-back-button defaultHref="tabs/tab1"></ion-back-button>
     </ion-buttons>
     <ion-title>
       About
@@ -9,7 +9,7 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
-  <ion-text>
-    When using the browser back button, the navigation animation is not triggered.
-  </ion-text>
+  <ion-button (click)="navigateToProfile()">
+    Navigate to profile
+  </ion-button>
 </ion-content>

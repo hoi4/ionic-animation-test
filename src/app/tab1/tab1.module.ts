@@ -6,7 +6,8 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
-import { AboutModule } from "./about/about.module";
+import { AboutModule } from './about/about.module';
+import { ProfileModule } from './profile/profile.module';
 
 @NgModule({
   imports: [
@@ -16,6 +17,7 @@ import { AboutModule } from "./about/about.module";
     ExploreContainerComponentModule,
     Tab1PageRoutingModule,
     AboutModule,
+    ProfileModule
   ],
   declarations: [Tab1Page]
 })
